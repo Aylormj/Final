@@ -1,0 +1,47 @@
+/* App-specific styles */
+#root {
+  text-align: center;
+  min-height: 100vh;
+  padding: 1rem;
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--color-background);
+}
+
+/* Main content container */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+/* Game container */
+.game-container {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* Main element styling */
+main {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  min-height: 100vh;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  #root {
+    padding: 0.5rem;
+  }
+}
